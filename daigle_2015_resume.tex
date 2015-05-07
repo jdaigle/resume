@@ -28,10 +28,12 @@
 % personal data
 \firstname{Joseph}
 \familyname{Daigle}
-\phone[mobile]{+1~(678)~296~6166}  
 \email{joseph.daigle@gmail.com}
-\homepage{https://stackoverflow.com/users/507/joseph-daigle}
-\social[github]{jdaigle}
+\phone{+1~(678)~296~6166}
+\extrainfo{%
+  \homepagesymbol\url{https://stackoverflow.com/users/507/joseph-daigle} \\
+  \homepagesymbol\url{https://github.com/jdaigle}
+}
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
@@ -45,11 +47,6 @@
 \begin{document}
 \maketitle
 
-\section{Education}
-\cventry{2003--2007}{BS, Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
-\cvitem{}{Specialized in Networks, Communication, and Systems.}
-
-
 \section{Experience}
 
 \cventry{2013--Present}{Director of Development}{Clearwave Corporation}{Atlanta, GA}{}{
@@ -57,19 +54,19 @@
 TODO
 }
 
-\cventry{2011--2013}{Lead/Senior Software Engineer}{Clearwave Corporation}{Atlanta, GA}{}{
-{\url{http://www.clearwaveinc.com/}}\newline{}
-TODO
-}
-
-\cventry{2009--2011}{Software Engineer}{Clearwave Corporation}{Atlanta, GA}{}{
+\cventry{2009--2013}{Senior Software Engineer}{Clearwave Corporation}{Atlanta, GA}{}{
 {\url{http://www.clearwaveinc.com/}}\newline{}
 TODO
 }
 
 \cventry{2008--2009}{Software Engineer}{GeoFields, Inc.}{Atlanta, GA}{}{
 {\url{http://www.geofields.com/}}\newline{}
-TODO
+Enterprise software engineer for the industry leader in transmission pipeline data management software and services. Worked in multiple small teams that delivered a comprehensive enterprise software solution. Responsibilities included all aspects of the software process from design through development, quality assurance and release. Primarily utilized .NET, C\#, ASP.NET, ArcObjects, ArcDesktop, SQL Server, Oracle, LLBLGen.
+\begin{itemize}
+\item Lead developer on the product DataFrame Data Maintenance (DFDM). The product is designed as an extension to ESRI’s ArcMap application to maintain linearly-referenced transmission pipeline data in a customized geodatabase. The software consists of a .NET WinForms based front end, written in C\#, with a shared backend library containing the data access layer and domain object layer. Additionally, intense ArcObjects programming and business logic layer design was involved to build the user interface and interact with the data model. This product was demoed at the 2008 GeoFields User Conference.
+\item Developer on the product Facility Explorer (FE). An ASP.NET based web application which utilizes ESRI mapping technology to dynamically display transmission pipeline assets, as well as a reporting tool. It relies heavily on custom JavaScript libraries to enable rich user interaction with the map. Also participated in support of a legacy ASP version of the software.
+\item Lead in the design and development of a large enterprise foundation codebase to be reused by several other software applications. Much of the work included building a dynamic data access layer and business logic layer. Several newer .NET technologies were utilized including WCF and LINQ.
+\end{itemize}
 }
 
 \cventry{2005-2007}{IT Analyst / IT Support Specialist}{Southern Regional Education Board}{Atlanta, GA}{}{
@@ -91,6 +88,9 @@ Responsibilities included supporting over 250 users and client workstations acro
 \end{itemize}
 }
 
+\section{Education}
+\cventry{2003--2007}{BS, Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
+\cvitem{}{Specialized in Networks, Communication, and Systems.}
 
 \section{Technical Experience}
 \subsection{Extremely Proficient With}
