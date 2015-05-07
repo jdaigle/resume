@@ -1,0 +1,103 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%% Copyright 2015 Joseph Daigle (joseph.daigle@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,letterpaper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Joseph}
+\familyname{Daigle}
+\phone[mobile]{+1~(678)~296~6166}  
+\email{joseph.daigle@gmail.com}
+\homepage{https://stackoverflow.com/users/507/joseph-daigle}
+\social[github]{jdaigle}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2003--2007}{BS, Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
+\cvitem{}{Specialized in Networks, Communication, and Systems.}
+
+
+\section{Experience}
+
+\cventry{2013--Present}{Director of Development}{Clearwave Corporation}{Atlanta, GA}{}{
+{\url{http://www.clearwaveinc.com/}}\newline{}
+TODO
+}
+
+\cventry{2011--2013}{Lead/Senior Software Engineer}{Clearwave Corporation}{Atlanta, GA}{}{
+{\url{http://www.clearwaveinc.com/}}\newline{}
+TODO
+}
+
+\cventry{2009--2011}{Software Engineer}{Clearwave Corporation}{Atlanta, GA}{}{
+{\url{http://www.clearwaveinc.com/}}\newline{}
+TODO
+}
+
+\cventry{2008--2009}{Software Engineer}{GeoFields, Inc.}{Atlanta, GA}{}{
+{\url{http://www.geofields.com/}}\newline{}
+TODO
+}
+
+\cventry{2005-2007}{IT Analyst / IT Support Specialist}{Southern Regional Education Board}{Atlanta, GA}{}{
+{\url{http://www.sreb.org/}}\newline{}
+Worked during alternating semesters through Georgia Tech's Cooperative Education Program. As an IT support specialist, supported 150 users and workstations. Additionally designed and implemented ASP.NET web applications for internal and external client projects.
+\begin{itemize}
+\item Designed and developed an internal content management system for the web and desktops based on Microsoft SharePoint. This utilized several custom ASP.NET web parts as well as integration with Active Directory for authentication and authorization. An ASP.NET web application was built to enable external user registration within an isolated Active Directory application domain, and e-mail support.
+\item Worked on several projects to create classic ASP and ASP.NET web surveys answered by thousands of students and educators across the country. A custom framework was designed to facilitate the implementation and deployment of these surveys for various teams within the organization.
+\item Built a 1TB storage cluster with failover and data replication using DFS and DFSR to host and share thousands of internal documents and publications across the organization.
+\end{itemize}
+}
+
+\cventry{2004}{Systems Support Specialist / IT Intern}{Porex Corporation}{Atlanta, GA}{}{
+{\url{http://www.porex.com/}}\newline{}
+Responsibilities included supporting over 250 users and client workstations across work 3 work sites and systems administration of several Active Directory and Exchange servers.
+\begin{itemize}
+\item Designed and implemented a large scale user desktop imaging/deployment system utilizing Windows deployment technologies including sysprep and 3rd part tools such as Symantec Ghost.
+\item Developer for a Java based network monitoring system. Utilized several open source products including OpenNMS and other assets management tools, customized for the environment and monitoring requirements.
+\end{itemize}
+}
+
+
+\section{Technical Experience}
+\subsection{Extremely Proficient With}
+\cvline{languages}{C\#, XML/XLST, T-SQL, JavaScript, HTML, CSS, JSON}
+\cvline{technologies}{GIT, Subversion, TFS, ASP.NET, Windows Server, IIS, MS SQL Server, Linux/CentOS, JQuery, NHibernate, Active Directory, MS Exchange Server, HAProxy}
+\subsection{Have Experience With}
+\cvline{languages}{Java, VB.NET, C++, PHP, Ruby, Scheme, Python, Perl, F\#}
+\cvline{technologies}{OSX, Apache, Mercurial, ESRI, Lucene, Solr, ElasticSearch, Redis, Cassandra, RavenDB}
+
+\end{document}
